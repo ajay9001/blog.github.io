@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact.com</title>
+    <link rel="stylesheet" href="style/contact.css">
+
+    <script>
+        // c=['a','b','d','c']
+        //     n=0
+        //     function A(){
+        // // document.body.style.backgroundImage="url('img/"+c[n]+".avif')"
+        //     // document.getElementById('slider').src="img/"+c[n]+".jpeg"
+        //     n++
+        //     if(n==4)
+        //     n=0
+        //     setTimeout('A()',1000)
+        
+        
+    c=['powderblue','yellow','orange']
+            n=0
+        function A(){
+            document.body.style.backgroundColor=c[n]
+            //  document.body.style.backgroundImage="url('images/"+c[n]+".jpeg')"
+            n++
+            if(n==3)
+            n=0
+            setTimeout('A()',1000)
+            
+     }
+    
+    
+    
+    </script>
+
+</head>
+<body onload="A()" style=" background-size: cover;background-repeat: no-repeat;">
+
+    <div class="div1">
+
+        <h1>Contact us</h1>
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quidem 
+        </p>
+        
+        <input type="text" placeholder="your name">
+
+
+        <input type="text" placeholder="your mail">
+
+        <textarea  name="text" id="text" cols="25" rows="7" placeholder="Ellabrorate your concern"></textarea>
+        
+        
+        <button class="btn">Submit</button>
+        
+        
+        <button class="btn2"><a href="index.html">Back</a></button>
+    
+    </div>
+
+</body>
+</html>
